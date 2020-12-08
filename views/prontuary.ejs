@@ -1,50 +1,59 @@
-
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Prontuary</title>
-        <base href="/">
-        <link rel="stylesheet" href="/css/prontuary.css">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-        <body>
-            <header>
-                <nav>
-                    <ul class="link-list">
-                        <li class="link-item"><a href="https://github.com/davibelini" class="github-link">my github</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="container">
-                <h1>Prontuary.</h1>
-                <form method="POST" action="/submitted">
-                    <table>
-                        <tr>
-                            <td><label for = "NomePaciente">Nome do paciente</label></td><td> <input type = "text" id = "NomePaciente" name = "NomePaciente"></td>
-                        </tr>
-                        <tr>
-                            <td> <label for = "NomeMae">Nome da Mãe</label></td><td><input type = "text" id = "NomeMae" name = "NomeMae"></td>
-                        </tr>
-                        <tr>
-                            <td><label for = "Endereco">Endereço</label></td><td> <input type = "text" id = "Endereco" name = "Endereco"></td>
-                        </tr>
-                        <tr>
-                            <td> <label for = "Telefone">Telefone</label></td><td><input type = "text" id = "Telefone" name = "Telefone"></td>
-                            <tr>
-                                <td><label for = "DataNascimento">Data de Nascimento</label></td><td> <input type = "text" id = "DataNascimento" name = "DataNascimento"></td>
-                            </tr>
-                        </tr> 
-                        <tr>
-                            <td><label for = "Escolaridade">Escolaridade</label></td><td> <input type = "text" id = "Escolaridade" name = "Escolaridade"></td>
-                        </tr>
-                        <tr>
-                            <td> <label for = "Idade">Idade</label></td><td><input type = "text" id = "Idade" name = "Idade"></td>
-                        </tr>
-                    </table>
 
-                    <input type = "submit" value = "Done">
-                </form>
-                <script src="prontuary.js"></script>
-        </body>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prontuary</title>
+    <base href="/">
+    <link rel="stylesheet" href="/css/prontuary.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <nav>
+            <ul class="link-list">
+                <li class="link-item"><a href="https://github.com/davibelini" class="github-link">my github</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Prontuary.</h1>
+        <form method="POST" action="/submitted">
+            <table>
+                <tr>
+                    <td><label for="NomePaciente">Nome do paciente</label></td>
+                    <td> <input type="text" id="NomePaciente" name="NomePaciente"></td>
+                </tr>
+                <tr>
+                    <td> <label for="NomeMae">Nome da Mãe</label></td>
+                    <td><input type="text" id="NomeMae" name="NomeMae"></td>
+                </tr>
+                <tr>
+                    <td><label for="Endereco">Endereço</label></td>
+                    <td> <input type="text" id="Endereco" name="Endereco"></td>
+                </tr>
+                <tr>
+                    <td> <label for="Telefone">Telefone</label></td>
+                    <td><input type="text" id="Telefone" name="Telefone"></td>
+                <tr>
+                    <td><label for="DataNascimento">Data de Nascimento</label></td>
+                    <td> <input type="text" id="DataNascimento" name="DataNascimento"></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><label for="Escolaridade">Escolaridade</label></td>
+                    <td> <input type="text" id="Escolaridade" name="Escolaridade"></td>
+                </tr>
+                <tr>
+                    <td> <label for="Idade">Idade</label></td>
+                    <td><input type="text" id="Idade" name="Idade"></td>
+                </tr>
+            </table>
+
+            <input type="submit" value="Done">
+        </form>
+        <script src="prontuary.js"></script>
+</body>
+</head>
+
 </html>
