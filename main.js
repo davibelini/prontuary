@@ -12,4 +12,10 @@ app.get('/', (req, res) => {
     res.render(`${__dirname}/views/prontuary.ejs`)
 })
 
+app.post('/submitted', (req, res) => {
+    /**
+     * Database logic to post patient
+     */
+})
+
 app.listen(port)
